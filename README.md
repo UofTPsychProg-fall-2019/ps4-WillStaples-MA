@@ -9,3 +9,43 @@ Your submission should be 1 text file with:
 2. Pseudocode detailing the hierarchy of your experiment
 
 [Inspiration](https://en.wikipedia.org/wiki/File:Sussudioogg.ogg)
+
+
+
+
+
+The following is a skeleton for a project that is still in development. The project involves presenting the subject with a scenario played in video format. The subjects will make 2, temporally distinct decisions. The first decision will be followed by a videoclip relevant to the decision that they make. They will be prompted to make a second decision. Another videoclip will play dependent on their decision. The experiment is terminated with the playing of a final videoclip that is identical regardless of any choices they have made.
+
+
+Import Libraries
+pp#()
+
+Present neutral screen with prompt to begin experiment 
+Register any keystroke =  Play clip 1
+
+Record responses following clip 1
+	If keystroke = G 
+		Play clip 2a
+	Else
+    Keystroke = H
+		Play clip 2b
+Record response and append to list pp#()
+
+Record responses following clip 2
+If clip = clip 2a
+    If keystroke = G 
+      Play clip 3a
+    Else
+      Play clip 3b
+ Record response and append to list pp#()
+
+Else
+    If keystroke = G 
+      Play clip 3x
+    Else
+      Keystroke = H
+      Play clip 3y
+  Record response and append to list pp#()
+
+Clip 3 ends = play clip 4
+Clip 4 ends = Present response index
